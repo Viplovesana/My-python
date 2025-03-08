@@ -174,16 +174,46 @@
 # print(hex(x))
 
 
-x = 10
-y = 15
+'''x = 10
+y = 20
 print(x | y)
 print(x & y)
-print(x ~ y)
+# print(x ~ y)
 print(x ^ y)
 print(x << y)
 print(x >> y)
+print(~x)
+
+print(x<<2)
+print(15<<1)
+print(x>>2)
+print(15>>1)'''
+
+'''variable declaretion........................
+
+{1} multiple variable assign single value in single line....
+
+x = y = z = 10
+
+{2} multiple varibles assign multiple values in single line
+
+x,y,z = 10,20,30,'''
+
+'''x,y,z = 10,20,30
+
+print(x)
+print(y)
+print(z)'''
+
+x = 10
+y = 20
+
+x,y=y,x
+
+print(x)
+print(y)       
 
 
 
 
-
+  
