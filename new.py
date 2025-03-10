@@ -205,15 +205,20 @@ print(x)
 print(y)
 print(z)'''
 
-x = 10
-y = 20
+# x = 10
+# y = 20
 
-x,y=y,x
+# x,y=y,x
 
-print(x)
-print(y)       
+# print(x)
+# print(y)       
 
 
+# s1 = 'PYTHON'
+# print(s1.index('HT'))
+
+l1 =(10,20,30,'raj','jai',40)
+print(l1[4])
 
 
   
