@@ -217,8 +217,20 @@ print(z)'''
 # s1 = 'PYTHON'
 # print(s1.index('HT'))
 
-l1 =(10,20,30,'raj','jai',40)
-print(l1[4])
+# l1 =(10,20,30,'raj','jai',40)
+# print(l1[4])
 
-
+print('hello world')
+print(1)
+print([10,20,40,50])
+print((1,2,3,4))
+print({"viplove","sana","rahul","vishal"})
   
+
+# print("hello")
+# print(1)
+# print([10,20,30,40])
+# print((2,5,7))
+# print({'viplove','rahul','age',24})
+# print({'neeraj',20,30,40}
+# )
