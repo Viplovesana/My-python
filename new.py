@@ -220,18 +220,22 @@ print(z)'''
 # l1 =(10,20,30,'raj','jai',40)
 # print(l1[4])
 
-print('hello world')
+'''print('hello world')
 print(1)
 print([10,20,40,50])
 print((1,2,3,4))
 print({"viplove","sana","rahul","vishal"})
-print({"viplove sana","piyush yadav",20,30,40,})
+print({"viplove sana","piyush yadav",20,30,40,})'''
   
 
-# print("hello")
-# print(1)
-# print([10,20,30,40])
-# print((2,5,7))
-# print({'viplove','rahul','age',24})
-# print({'neeraj',20,30,40}
-# )
+#   name = input("enter your name : ")
+#   print(name)
+  age = input("enter your age")
+  print(type(age))
+
+# name = input("enter your name : ")
+# print(name)
+
+# name = input("enter your age : ") 
+
+# print(type(name))
