@@ -225,6 +225,7 @@ print(1)
 print([10,20,40,50])
 print((1,2,3,4))
 print({"viplove","sana","rahul","vishal"})
+print({"viplove sana","piyush yadav",20,30,40,})
   
 
 # print("hello")
