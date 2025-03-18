@@ -230,12 +230,14 @@ print({"viplove sana","piyush yadav",20,30,40,})'''
 
 #   name = input("enter your name : ")
 #   print(name)
-  age = input("enter your age")
-  print(type(age))
 
-# name = input("enter your name : ")
-# print(name)
 
-# name = input("enter your age : ") 
+import pyjokes
 
-# print(type(name))
+joke = pyjokes.get_joke()
+print(jokes)
+
+
+
+
+
