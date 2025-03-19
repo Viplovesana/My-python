@@ -51,6 +51,11 @@
 # y=(10,20,30)
 # print(id(x),id(y))
 
+# x=(10,20,30)
+# y=(10,20,30)
+# print(id(x),id(y))
+
+
 # d1 = {"viplove","neeraj"}
 # d2 = {"viplove","neeraj"}
 # print(id(d1),id(d2))
