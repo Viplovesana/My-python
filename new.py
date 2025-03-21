@@ -240,18 +240,3 @@ print({"viplove sana","piyush yadav",20,30,40,})'''
 #   print(name)
 
 
-s = 'viplove'
-print(s[::-1]) 
-
-
-m = "viplove"
-print(m[2:5:2])
-
-e = 'viplove'
-print(e[2:5:-2])
-
-
-x = "pythonprogramming"
-print(x[2:2:-2])
-
-
