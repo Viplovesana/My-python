@@ -240,3 +240,34 @@ print({"viplove sana","piyush yadav",20,30,40,})'''
 #   print(name)
 
 
+
+# x = "MADHAV"
+
+# print(x[0:5:2])
+# print(x[0:5:3])
+# print(x[0:5:4])
+# print(x[0:5:5])
+
+
+# x = range(1,7)
+# print(x)
+# print(list(x))
+
+# y = range(1,7)
+# print(tuple(y))
+
+# n = int(input("enter any no : "))
+# x = range(1,n+1)
+# print(list(x))
+
+# n = int(input("enter any no : "))  
+# x = range(1,n+1,2)
+# print(list(x))
+
+# n = int(input("enter any no : "))  
+# x = range(-1,-7,-1)
+# print(list(x))
+
+n = int(input("enter any no : "))  
+x = range(-3,4)
+print(list(x))
