@@ -268,6 +268,101 @@ print({"viplove sana","piyush yadav",20,30,40,})'''
 # x = range(-1,-7,-1)
 # print(list(x))
 
-n = int(input("enter any no : "))  
-x = range(-3,4)
-print(list(x))
+# n = int(input("enter any no : "))  
+# x = range(-3,4)
+# print(list(x))
+
+
+x = 10 
+y = 20 
+z = x+y
+
+print(z)
+
+print(type(z))
+
+x = 10 
+y = 20 
+z = x-y
+
+print(z)
+
+print(type(z))
+
+x = 10 
+y = 20 
+z = x*y
+
+print(z)
+
+print(type(z))
+
+x = 10 
+y = 20 
+z = x/y
+
+print(z)
+
+print(type(z))  #data type float
+
+
+x = 10 
+y = 20 
+z = x%y
+
+print(z)
+
+print(type(z))
+
+x = 10 
+y = 20 
+z = x//y
+
+print(z)
+
+print(type(z))
+
+
+x = 10.2  #float
+y = 20.6
+z = x+y
+
+print(z)
+
+print(type(z))
+x = 3+5j
+y = 4+3j
+z = x+y
+
+print(z)
+
+print(type(z))   # datatype complex
+
+
+s ="Neeraj"
+
+print(max(s))
+print(min(s))
+print(len(s))
+print(type(s))
+print(id(s))
+
+x =str()
+print(type(x))
+
+s = "I Love Python"
+
+print(s.lower())
+
+print(s.upper())
+
+print(s.title())
+
+print(s.capitalize())
+
+print(s.swapcase())
+
+
+
+
+
