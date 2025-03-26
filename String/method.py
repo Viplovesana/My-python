@@ -1,5 +1,8 @@
 
 
+
+s = "I Love Python"
+
 print(s.lower())
 
 print(s.upper())
@@ -53,3 +56,8 @@ print(s.split(' ',0))
 print(s.split(' ',2))
 
 print(s.split(' ',1))
+
+s1 ="viplove"
+s2 = 7
+
+print(s1*s2)

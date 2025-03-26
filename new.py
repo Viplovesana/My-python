@@ -408,6 +408,20 @@ print(s.split(' ',1))
 
 
 
+s1 ="viplove"
+s2 = 7
+
+print(s1*s2)
+
+
+
+my-list = [10,20,30,40,"neeraj"]
+
+print(len(my-list))
+
+print(max(my-list))
+
+
 
 
 
