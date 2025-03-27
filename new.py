@@ -273,94 +273,94 @@ print({"viplove sana","piyush yadav",20,30,40,})'''
 # print(list(x))
 
 
-x = 10 
-y = 20 
-z = x+y
+# x = 10 
+# y = 20 
+# z = x+y
 
-print(z)
+# print(z)
 
-print(type(z))
+# print(type(z))
 
-x = 10 
-y = 20 
-z = x-y
+# x = 10 
+# y = 20 
+# z = x-y
 
-print(z)
+# print(z)
 
-print(type(z))
+# print(type(z))
 
-x = 10 
-y = 20 
-z = x*y
+# x = 10 
+# y = 20 
+# z = x*y
 
-print(z)
+# print(z)
 
-print(type(z))
+# print(type(z))
 
-x = 10 
-y = 20 
-z = x/y
+# x = 10 
+# y = 20 
+# z = x/y
 
-print(z)
+# print(z)
 
-print(type(z))  #data type float
-
-
-x = 10 
-y = 20 
-z = x%y
-
-print(z)
-
-print(type(z))
-
-x = 10 
-y = 20 
-z = x//y
-
-print(z)
-
-print(type(z))
+# print(type(z))  #data type float
 
 
-x = 10.2  #float
-y = 20.6
-z = x+y
+# x = 10 
+# y = 20 
+# z = x%y
 
-print(z)
+# print(z)
 
-print(type(z))
-x = 3+5j
-y = 4+3j
-z = x+y
+# print(type(z))
 
-print(z)
+# x = 10 
+# y = 20 
+# z = x//y
 
-print(type(z))   # datatype complex
+# print(z)
+
+# print(type(z))
 
 
-s ="Neeraj"
+# x = 10.2  #float
+# y = 20.6
+# z = x+y
 
-print(max(s))
-print(min(s))
-print(len(s))
-print(type(s))
-print(id(s))
+# print(z)
 
-x =str()
-print(type(x))
+# print(type(z))
+# x = 3+5j
+# y = 4+3j
+# z = x+y
 
-s = "I Love Python"
+# print(z)
 
-print(s.lower())
+# print(type(z))   # datatype complex
 
-print(s.upper())
 
-print(s.title())
+# s ="Neeraj"
 
-print(s.capitalize())
+# print(max(s))
+# print(min(s))
+# print(len(s))
+# print(type(s))
+# print(id(s))
 
-print(s.swapcase())
+# x =str()
+# print(type(x))
+
+# s = "I Love Python"
+
+# print(s.lower())
+
+# print(s.upper())
+
+# print(s.title())
+
+# print(s.capitalize())
+
+# print(s.swapcase())
 
 
 # s = 'i love python'
@@ -373,53 +373,108 @@ print(s.swapcase())
 
 # print(s.find("i"))
 
-s = "Neeraj"
+# s = "Neeraj"
 
-print(s.count('e'))
+# print(s.count('e'))
 
-print(s.count('n'))
-
-
-s = "I Love Python"
-
-print(s.count('o',3,10))
-
-l = ["viplove","sana","rohan"]  #join the char or element from string
-
-print(''.join(l))           
+# print(s.count('n'))
 
 
-str1 = 'viplove'
-str2 = 'sana'
+# s = "I Love Python"
 
-l = [str1,str2]
+# print(s.count('o',3,10))
 
-print(' '.join(l))
+# l = ["viplove","sana","rohan"]  #join the char or element from string
 
-s = "i love python"
-
-print(s.split(' '))
-
-print(s.split(' ',0))
-
-print(s.split(' ',2))
-
-print(s.split(' ',1))
+# print(''.join(l))           
 
 
+# str1 = 'viplove'
+# str2 = 'sana'
 
-s1 ="viplove"
-s2 = 7
+# l = [str1,str2]
 
-print(s1*s2)
+# print(' '.join(l))
+
+# s = "i love python"
+
+# print(s.split(' '))
+
+# print(s.split(' ',0))
+
+# print(s.split(' ',2))
+
+# print(s.split(' ',1))
 
 
 
-my-list = [10,20,30,40,"neeraj"]
+# s1 ="viplove"
+# s2 = 7
 
-print(len(my-list))
+# print(s1*s2)
 
-print(max(my-list))
+
+
+# my-list = [10,20,30,40,"neeraj"]
+
+# print(len(my-list))
+
+# print(max(my-list))
+
+l = [2,4,6,8,10,]
+
+# (l.append('viplove'))
+
+# print(l)
+
+# #couint
+
+# print(l.count(10))
+
+# #exdend
+
+# l1 =[1,3,5]
+# # l.extend(l1)
+# # print(l)
+# l1.extend(l)
+# print(l1)
+
+
+#index
+
+# print(l.index(10))
+
+#insert
+
+# l.insert(0,'jai')
+
+# print(l)
+
+#pop()
+
+# print(l.pop())
+
+# print(l)
+
+# print(l.remove(6))
+# print(l)
+
+#reverse()
+
+# l.reverse()
+# print(l)
+
+#sort()
+
+# l = [10,8,6,4,2]
+
+# l.sort()
+# print(l)
+
+
+l.sort(reverse=True)
+
+print(l)
 
 
 
