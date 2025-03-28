@@ -472,11 +472,28 @@ l = [2,4,6,8,10,]
 # print(l)
 
 
-l.sort(reverse=True)
+# l.sort(reverse=True)
 
-print(l)
+# print(l)
+
+t = ("Raj","Neeraj","Rahul",10,20,30,40 )
+# print(max(t))
+
+# print(min(t))
+
+# print(len(t))
+
+# # print(sum(t))
+# print(t.index("Raj"))
+
+# print(t.index(10,2))
+
+# print(t.count(10)) 
 
 
+d = {'name':'Neeraj','age':'37','quelification':'B.tech'}
+
+print(d)
 
 
 
