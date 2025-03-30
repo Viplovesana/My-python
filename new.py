@@ -491,9 +491,53 @@ t = ("Raj","Neeraj","Rahul",10,20,30,40 )
 # print(t.count(10)) 
 
 
-d = {'name':'Neeraj','age':'37','quelification':'B.tech'}
-
-print(d)
+# d = {'name':'Neeraj','age':'37','quelification':'B.tech'}
 
 
 
+# print(d)
+
+# d = {'name':'Viplove','age':37 ,'quali':'M.tech'}
+# print(len(d))
+
+#dict method
+# d.clear()
+# print(d)
+
+# x = d.copy()
+# print(x,d)
+# print(id(x),id(d))
+
+# l = ['name','age','quali']
+
+# d1 = dict.fromkeys(l)
+# print(d1)
+
+
+# l = 'viplovee' #key cant be dublicate or seprate
+
+# d1 = dict.fromkeys(l,100)
+# print(d1)
+# 
+# 
+# d = {'name':'Viplove','age':37 ,'quali':'M.tech'}   
+
+# print(d.get('age'))
+# print(d.items())
+# print(d.keys())
+# print(d.values())
+# print(d.popitem())
+# print(d.pop('age'))
+# d.setdefault('grad','M.Tech')
+# print(d)
+# d1 = {'grad':'M.Tech','city':'Bhopal'}
+
+# d.update(d1)
+#  print(d1)
+# d['name']='Rohan'
+# print(d)
+
+# print(d['name'])
+
+# d['grad']='B.Tech'
+# print(d)
