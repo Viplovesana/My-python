@@ -541,3 +541,66 @@ t = ("Raj","Neeraj","Rahul",10,20,30,40 )
 
 # d['grad']='B.Tech'
 # print(d)
+
+
+#set()...........................................................................
+
+# s = {10,20,30,40,10,20,}
+# print(s)
+
+# print(len(s))
+
+# print(max(s))
+
+# print(min(s))
+
+# print(sum(s))
+
+# print(type(s))
+
+# print(id(s))
+
+
+s = {2,4,6,'viplove',1,3,'Raj'}
+
+# s.update(10,20,30)
+# s.update('viplove','rahul')
+# print(s)
+
+# l1 = [10,20,30]
+# l2 = [2,3,4,6]
+
+# s.update(l1,l2)
+
+# print(s)
+
+# print(s.pop())
+# print(s)
+
+# s.remove('raj')       #.....remove and discard very important question
+# print(s)
+
+# s.discard('raj')
+# print(s)
+
+# s1 =s.copy()
+# print(s)
+# print(s1)
+# print(id(s),id(s1))
+
+
+# s.clear()
+# print(s)
+
+# x = set()
+# print(x)
+# print(type(x))
+
+
+# s1 = {1,2,3,4,5,6}    #union set........................
+# s2 = {4,5,6,7,8,9}
+# print(s1.union(s2))
+
+
+
+
