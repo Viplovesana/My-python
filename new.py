@@ -601,6 +601,96 @@ s = {2,4,6,'viplove',1,3,'Raj'}
 # s2 = {4,5,6,7,8,9}
 # print(s1.union(s2))
 
+# s1 = {1,2,3,4,5,6}
+# s2 = {4,5,6,7,8,9}
+
+
+# print(s1.intersection(s2))
+
+# print()
 
 
 
+
+
+# print(s1.difference(s2))
+# s1.difference_update(s2)
+# print(s1)
+
+# symmetrivc update methos
+
+# s2.difference_update(s1)
+# print(s2)
+
+
+
+# s1 = {1,2,3,4,5,6}
+# s2 = {4,5,6,7,8,9}
+
+# print(s1.isdisjoint(s2))
+
+# s1 = {1,2,3,}
+# s2 = {4,5,6,}
+
+# print(s1.isdisjoint(s2))
+
+
+# s1 = {1,2,3,4,5,6,7,8}
+# s2 = {4,5,6}
+
+# print(s1.issuperset(s2))
+
+# print(s2.issubset(s1))
+
+
+# l = [10,20,30,40]
+
+# x=frozenset(l)
+
+# print(x)
+
+# print(type(x))
+
+
+
+
+#..............................control flow statement..................................................
+
+
+
+
+
+# x = 10
+# y = 20
+
+# if x > y:
+#     print("x is greater then y")
+
+
+
+
+
+# x = int(input("enter the no :"))
+
+# if x%2==0:
+#     print(f'given no {x} is even')
+
+
+
+
+# x = int(input("enter first no :"))
+
+# y = int(input("enter second no :"))
+
+# z = x + y
+
+# print(f"sum of {x} + {y} = {z}")
+
+
+x = int(input("enter first no :"))
+
+y = int(input("enter second no :"))
+ 
+x ,y  = y , x
+
+print(f"value of x = {x} and value of y = {y}")
