@@ -41,17 +41,17 @@
 #take threee no as input and print the largest one using if-elif-else
 
 
-x = int(input('enter the first no :'))
-y = int(input('enter the second no :'))
-z = int(input("enter bthe third no : "))
+# x = int(input('enter the first no :'))
+# y = int(input('enter the second no :'))
+# z = int(input("enter bthe third no : "))
 
 
-if x>=y and x>=z:
-    print(f"the largest no is {x}")
-elif y>=x and y>=z:
-    print(f'the largest no is {y}' )
-else:
-    print(f"the largest no is {z}")        
+# if x>=y and x>=z:
+#     print(f"the largest no is {x}")
+# elif y>=x and y>=z:
+#     print(f'the largest no is {y}' )
+# else:
+#     print(f"the largest no is {z}")        
 
 
 # x = int(input("enter first no :"))
@@ -107,6 +107,20 @@ else:
 # if x>y and x>z:
 #      print
 
+
+'cheak if a year is a leap year ......................................'
+
+
+year = int(input('enter the yearv : '))
+
+if year % 4 == 0:
+    print(f"{year} is a leap year")
+elif year % 100 == 0:
+    print(f"{year} is not a leap year") 
+elif year % 400 ==0:
+    print(f"{year} is a leap year")
+else:
+    print(f"{year} i not leap year")           
 
 
    
