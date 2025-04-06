@@ -55,3 +55,25 @@
 #     print("paliondrom")
 # else:
 #     print("not palindrom") 
+
+
+'print hello...................'
+
+# i = 1
+# while i <= 5:
+#     print('hello world')
+#     i  = i + 1
+
+
+
+'wap to print a no from 1 to 5...'
+
+# i = 5
+# while i >= 1:
+#     print(i)
+#     i = i - 1
+
+
+# print ('loop ended')
+
+
