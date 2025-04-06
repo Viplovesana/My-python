@@ -491,9 +491,9 @@ t = ("Raj","Neeraj","Rahul",10,20,30,40 )
 # print(t.count(10)) 
 
 
-# d = {'name':'Neeraj','age':'37','quelification':'B.tech'}
+d = {'name':'Neeraj','age':'37','quelification':'B.tech'}
 
-
+print(min(d))
 
 # print(d)
 
@@ -687,10 +687,30 @@ s = {2,4,6,'viplove',1,3,'Raj'}
 # print(f"sum of {x} + {y} = {z}")
 
 
-x = int(input("enter first no :"))
+# x = int(input("enter first no :"))
 
-y = int(input("enter second no :"))
+# y = int(input("enter second no :"))
  
-x ,y  = y , x
+# x ,y  = y , x
 
-print(f"value of x = {x} and value of y = {y}")
+# print(f"value of x = {x} and value of y = {y}")
+
+
+
+# x = int (input("enter any no :"))
+
+# if x%2==0:
+#     print(f'given no {x} is even')
+# else:
+#     print(f'given no of {x} is not even') 
+
+
+# x = int(input("enter first no :"))
+
+# y = int(input("enter second no :"))    
+
+# if x>=y:
+#     print(f'{x} is greater than {y}')
+# else:
+#      print(f'{y} is greater than {x}')    
+   
