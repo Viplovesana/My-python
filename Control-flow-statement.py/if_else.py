@@ -28,13 +28,30 @@
 
 
 
-n = int(input('Enter the no : '))
+# n = int(input('Enter the no : '))
 
-if n%2==0:
-    print('this no is even')
+# if n%2==0:
+#     print('this no is even')
+# else:
+#     print('this no is odd')    
+
+
+
+
+#take threee no as input and print the largest one using if-elif-else
+
+
+x = int(input('enter the first no :'))
+y = int(input('enter the second no :'))
+z = int(input("enter bthe third no : "))
+
+
+if x>=y and x>=z:
+    print(f"the largest no is {x}")
+elif y>=x and y>=z:
+    print(f'the largest no is {y}' )
 else:
-    print('this no is odd')    
-
+    print(f"the largest no is {z}")        
 
 
 # x = int(input("enter first no :"))
@@ -92,60 +109,4 @@ else:
 
 
 
-# n = int(input("enter any number : "))
-# i = 1
-# while i<=n:
-#     if i<n:
-#         print(i ,end=",") # end is responsible for the horizontal output because of comma   
-#     else:
-#         print(i)
-#     i = i + 1        
-
-
-# n = int(input("enter any number : "))
-# i = 1
-# multi= 1
-# while i<=n:
-#     multi=multi*i
-#     if i<n:
-        
-#         print(i ,end="*") # end is responsible for the horizontal output because of comma   
-#     else:
-#         print(i ,end="=")
-#     i = i + 1 
-# print(multi)   
-# 
-#     
-
-
-
-# n = int(input("enter any number : "))  
-
-# i = 1
-# fact = 1
-
-# while i<=n:
-#     fact=fact*i
-#     i=i+1
-#     print("factorial of {} is equal to {}".format(n,fact))
-
-
-
-
-
-# n = int(input("enter any number : "))  
-
-
-# x=n
-# rev=0
-# while n>0:
-#     last_digit=n % 10 
-#     rev = rev*10+last_digit
-#     n=n//10
-# print(rev)
-# print(n)
-
-# if x==rev:
-#     print("paliondrom")
-# else:
-#     print("not palindrom")    
+   
