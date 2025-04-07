@@ -141,18 +141,33 @@
 #     idx=idx+1
 
 
-num = (5,10,15,20,25,30,35,40,45,50)
-x = 50
-i = 0
+# '''num = (5,10,15,20,25,30,35,40,45,50)
+# x = 50
+# i = 0
 
-while i<len(num):
-    if(num[i]==x):
-        print("found at idx",i)
-    else:
-        print('not found')
+# while i<len(num):
+#     if(num[i]==x):
+#         print("found at idx",i)
+#     else:
+#         print('not found')
     
     
-    i = i +1
+#     i = i +1'''
+
+
+'using break method in loop....................................'
+
+i = 0
+while i<=10:
+    print(i)
+    if(i == 7):
+        break
+    i = i + 1
+print("loop ended")    
+
+
+
+
 
 
 
