@@ -155,15 +155,31 @@
 #     i = i +1'''
 
 
-'using break method in loop....................................'
+'using break  and continue method in  while loop....................................'
 
-i = 0
+# i = 0  #break point 
+# while i<=10:
+#     print(i)
+#     if(i == 7):
+#         break
+#     i = i + 1
+# print("loop ended")   
+
+
+
+i = 0   #continue point // it will skip the value wher the condition given...
 while i<=10:
+    if(i==4):
+        i=i+1
+        continue
     print(i)
-    if(i == 7):
-        break
-    i = i + 1
-print("loop ended")    
+    i=i+1
+print("loop ended " )    
+    
+  
+
+
+
 
 
 
