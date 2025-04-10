@@ -102,19 +102,44 @@
 #     print(i)
 
 
-
+      
 "wap to print n numbers and the no divisible 3 written a buzz and any no is div by 5 print fizz"    
 
-n = int(input("enter any number : "))
-for i in range(1,n+1):
-    if i%3==0 and i%5==0:
-        print("fisbuzz")
-    elif  i%3==0:
-        print("buzz")
-    elif  i%5==0:
-        print("fizz")
-    else:
-          print(i)
+# n = int(input("enter any number : "))
+# for i in range(1,n+1):
+#     if i%3==0 and i%5==0:
+#         print("fisbuzz")
+#     elif  i%3==0:
+#         print("buzz")
+#     elif  i%5==0:
+#         print("fizz")
+#     else:
+#           print(i)
+
+
+
+"wap to find the sum of first n numbers ,(using for)"
+
+
+# n = int(input("enter any numbr :"))
+# sum=0
+# for i in range(1,1+n):
+#     sum=sum+i
+#     print("the sum of n no is :",sum)
+
+
+
+"wap to find the factorial of first n numbers,(using for)"  
+
+
+n = int(input("enter any numbr :"))
+sum = 0
+i = 1
+while i<=n:
+    sum=sum+i
+    i=i+1
+    print(sum)
+
 
   
   
