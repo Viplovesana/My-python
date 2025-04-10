@@ -51,10 +51,44 @@
 
 
 
-n = int(input("enter how many row required :"))
+# n = int(input("enter how many row required :"))
 
-i = 1
+# i = 1
 
-while i<=n:
-    print(" "*(n-i)+" *"*i)
-    i=i+1
+# while i<=n:
+#     print(" "*(n-i)+" *"*i)
+#     i=i+1
+
+
+
+
+# "write a programm for for even no using for loop"
+
+# n = int(input("Enter any number : ")) 
+# for i in range(10):
+#     print(i)
+
+
+# n = int(input("Enter any number : ")) 
+# for i in range(2,10):
+#     print(i)    
+
+n= int(input("enter any no :"))
+
+# for x in range (2,10,2):
+#     print(x)
+
+# for i in range(2,n+1,2):
+#     print(i)
+  
+
+# for i in range(1,n+1,2):
+#     print(i)
+
+
+# for x in range(1,n+1):
+#     print(2*x)
+
+# for i in range(1,n+1):
+#     print(2*i-1)
+
