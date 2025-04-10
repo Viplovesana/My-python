@@ -73,7 +73,7 @@
 # for i in range(2,10):
 #     print(i)    
 
-n= int(input("enter any no :"))
+# n= int(input("enter any no :"))
 
 # for x in range (2,10,2):
 #     print(x)
@@ -92,3 +92,11 @@ n= int(input("enter any no :"))
 # for i in range(1,n+1):
 #     print(2*i-1)
 
+"wap to print n numbers and the no divisible 3 written a buzz"
+
+n = int(input("enter any number : "))
+for i in range(1,n+1):
+    if i%3==0:
+        print("buzz") 
+  
+    print(i)
