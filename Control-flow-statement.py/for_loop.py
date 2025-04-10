@@ -129,17 +129,29 @@
 
 
 
-"wap to find the factorial of first n numbers,(using for)"  
+"wap to find the summ of any first n numbers,(using while)"  
 
+
+# n = int(input("enter any numbr :"))
+# sum = 0
+# i = 1
+# while i<=n:
+#     sum=sum+i
+#     i=i+1
+#     print(sum)
+
+"wap to find the factorial of any first n numbers,(using while)"  
 
 n = int(input("enter any numbr :"))
-sum = 0
-i = 1
-while i<=n:
-    sum=sum+i
-    i=i+1
-    print(sum)
+                            # fac is the another variable which itial value is 1
+i =1                     #1  i= 1 and is less than 5 where n = 5,the initial value of fac is 1,where f = f*1and it will be 1 and print 1
+                         #2  i= 2 and is less then 5 where n  is 5 where the 2nd time i = 2 and the value of fac is 1 and f*2 is 2 and irt prints yhe 2 
+fac= 1                   #3 i is again increament with 3 and it f *3 and print and again the i will itrate 
 
+while i<=n:
+    fac=fac*i
+    i=i+1
+    print("factorial=",fac)
 
   
   
