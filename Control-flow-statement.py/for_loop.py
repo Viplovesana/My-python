@@ -1,0 +1,60 @@
+
+
+
+# n =  int(input("enter any no :"))
+
+# for x in range(2,n+1,2):  # this for even no
+#     print(x)
+
+
+
+# n =  int(input("enter any no :"))
+
+# for x in range(1,n+1,2):  # this for odd no
+#     print(x)
+
+
+# print even number
+
+# n =  int(input("enter any no :"))
+
+# for x in range(1,n+1):  # this for odd no
+#     print(2*x)
+
+
+# print odd numbers
+
+# n =  int(input("enter any no :"))
+
+# for x in range(1,n+1):  # this for odd no
+#     print(2*x-1)  
+  
+
+# n = int(input("enter how many row required :"))
+
+# i = 1
+# while i<n:
+#     print("* "*n)
+#     i=i+1
+
+
+
+
+# n = int(input("enter how many row required :"))
+
+# for i in range(1,n+1):
+#     print("* "*n)
+#     i=i+1        
+
+
+
+
+
+
+n = int(input("enter how many row required :"))
+
+i = 1
+
+while i<=n:
+    print(" "*(n-i)+" *"*i)
+    i=i+1

@@ -332,18 +332,51 @@
 
 
 
-n =  int(input("enter any no : "))
-p = n 
-x = 0
-while n>0:
-    x = x + 1
-    n = n//10
-print(x)
-print(n)
-print(p)    
-    
-  
+# n =  int(input("enter any no : "))
 
+
+# digit_count=0
+# while n>0:
+#     digit_count=digit_count+1
+
+#     n=n//10
+              
+    
+#............................phibonacchhi series........................    
+  
+# n=10
+# a=0
+# b=1
+# print(a,b,end=' ')  #......................1st 
+# i=3
+# while i<=n:
+#     z=a+b
+#     print(z,end=' ')
+#     a,b=b,z
+#     i=i+1
+ 
+
+# n=10
+# a=0
+# b=1
+# print(a,b,end=' ')   #......................2nd method.....
+# i=1
+# while i<=(n-2):
+#     z=a+b
+#     print(z,end=" ")
+#     a,b=b,z
+#     i=i+1
+
+
+# n=10
+# a=0
+# b=1
+# z=0
+# while z<=n:
+#     z= a+b
+#     print(z,end=" ")
+#     a,b=b,z
+    
 
 
 
