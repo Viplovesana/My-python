@@ -44,20 +44,14 @@
 
 # for i in range(1,n+1):
 #     print("* "*n)
-#     i=i+1        
+#     i=i+1              
 
 
 
 
 
 
-# n = int(input("enter how many row required :"))
-
-# i = 1
-
-# while i<=n:
-#     print(" "*(n-i)+" *"*i)
-#     i=i+1
+#
 
 
 
@@ -71,7 +65,13 @@
 
 # n = int(input("Enter any number : ")) 
 # for i in range(2,10):
-#     print(i)    
+#     print(i)    n = int(input("enter how many row required :"))
+
+# i = 1
+
+# while i<=n:
+#     print(" "*(n-i)+" *"*i)
+#     i=i+1 
 
 # n= int(input("enter any no :"))
 
@@ -142,16 +142,96 @@
 
 "wap to find the factorial of any first n numbers,(using while)"  
 
-n = int(input("enter any numbr :"))
-                            # fac is the another variable which itial value is 1
-i =1                     #1  i= 1 and is less than 5 where n = 5,the initial value of fac is 1,where f = f*1and it will be 1 and print 1
-                         #2  i= 2 and is less then 5 where n  is 5 where the 2nd time i = 2 and the value of fac is 1 and f*2 is 2 and irt prints yhe 2 
-fac= 1                   #3 i is again increament with 3 and it f *3 and print and again the i will itrate 
+# n = int(input("enter any numbr :"))
+#                             # fac is the another variable which itial value is 1
+# i =1                     #1  i= 1 and is less than 5 where n = 5,the initial value of fac is 1,where f = f*1and it will be 1 and print 1
+#                          #2  i= 2 and is less then 5 where n  is 5 where the 2nd time i = 2 and the value of fac is 1 and f*2 is 2 and irt prints yhe 2 
+# fac= 1                   #3 i is again increament with 3 and it f *3 and print and again the i will itrate 
 
-while i<=n:
-    fac=fac*i
-    i=i+1
-    print("factorial=",fac)
+# while i<=n:
+#     fac=fac*i
+#     i=i+1
+#     print("factorial=",fac)
+
+
+
+
+
+# n = int(input("enter how many row required :"))
+
+# i = 0 
+# while i<n:
+#     print(("* ")*(n-i)+" "*i)
+#     i=i+1
 
   
-  
+
+# n = int(input("enter how many row required :"))
+
+# i = 0 
+# while i<n:
+#     print(("* ")*(n-i))
+#     i=i+1
+
+
+
+# n = int(input("enter how many row required :"))
+
+# i = 0 
+# while i<n:
+#     print(" "*i+"*"*(n-i))       
+#     i=i+1
+
+
+
+
+# i = 0
+# while i<n:
+#     print(" *"*n)
+#     n=n-1
+
+
+# n = int(input("enter a number :"))
+# i = 1
+# while i<=n:
+
+#     print(" *"*i)
+#     i=i+1
+# m=n-1
+# while m>0:
+#     print(" *"*m)
+#     m=m-1  
+
+
+
+
+"wap to find all factors of any given number"
+
+# n = int(input("enter a number :"))
+
+# for i in range(1,1+n):
+
+#     if n%i==0:
+#         print(i,end="")
+
+    
+# s = input("enter any string :")
+
+# for i in s:
+    # print(i)
+    # print(ord(i))
+    # print(ord(i)+5)
+    # print(chr(ord(i)+5),end="")
+    
+# print(chr(70))
+
+
+
+x = eval(input("enter any data"))
+
+print(x)
+print(type(x))
+l1=[]
+for i in x:
+    l1.append(i+5)
+print(l1)    
