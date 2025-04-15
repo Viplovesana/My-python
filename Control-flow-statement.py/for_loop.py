@@ -227,11 +227,11 @@
 
 
 
-x = eval(input("enter any data"))
+# x = eval(input("enter any data"))
 
-print(x)
-print(type(x))
-l1=[]
-for i in x:
-    l1.append(i+5)
-print(l1)    
+# print(x)
+# print(type(x))
+# l1=[]
+# for i in x:
+#     l1.append(i+5)
+# print(l1)    
