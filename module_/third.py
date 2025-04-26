@@ -1,4 +1,4 @@
-import second
+import module_.second as second
 
 
 s = int(input("Enter any number : "))
