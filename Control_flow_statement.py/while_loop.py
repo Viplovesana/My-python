@@ -376,6 +376,21 @@
 #     z= a+b
 #     print(z,end=" ")
 #     a,b=b,z
+
+
+
+"WAP to find fibonacci series..."
+
+
+n = int(input("enter the number :"))
+a = 0
+b = 1
+c = 0
+while c<=n:
+    print(c)
+    a=b
+    b=c
+    c=a+b 
     
 
 
