@@ -382,16 +382,40 @@
 "WAP to find fibonacci series..."
 
 
-n = int(input("enter the number :"))
-a = 0
-b = 1
-c = 0
-while c<=n:
-    print(c)
-    a=b
-    b=c
-    c=a+b 
-    
+# n = int(input("enter the number :"))
+# a = 0
+# b = 1
+# c = 0
+# while c<=n:
+#     print(c)
+#     a=b
+#     b=c
+#     c=a+b
+
+
+"write a program for strung is anagramm or not"
+
+
+# str1 = eval("enter the first string ")
+
+# str2 = eval("enter the second string")
+
+# a = sorted(str1)
+# print(a)
+# b = sorted(str2)
+# print(b)
+
+"wap given string are anagram or not"
+
+str1=input("enter the first string :")
+str2=input("enter the second string :")
+
+if sorted(str1) == sorted(str2):
+    print("anagram")
+else:
+    print("not an anagramm")    
+
+
 
 
 
