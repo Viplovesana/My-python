@@ -26,13 +26,30 @@
 
 
 
-f =open('x1.py','a')
-print("file created")
+# f =open('x1.py','a')
+# print("file created")
+# print(f.name)
+# print(f.mode)
+# print(f.readable())
+# print(f.writable())
+# print(f.closed)
+# f.close()
+
+# print(f.closed)
+
+
+
+f =open('x1.txt','w')
 print(f.name)
 print(f.mode)
 print(f.readable())
 print(f.writable())
 print(f.closed)
-f.close()
 
-print(f.closed)
+data=['python\n','java\n','php\n']
+
+f.writelines(data)
+
+
+
+f.close()
