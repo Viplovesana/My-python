@@ -51,14 +51,32 @@
 
 
 
-class Calculator:
-    def add(x,y):
-        return x+y
+# class Calculator:
+#     x = 10
+#     def add(x,y):
+#         return x+y
+#     print(x)
+ 
 
-object=Calculator
-a=object.add(20,30)
-print(a)
+# object=Calculator
+# a=object.add(20,30)
+# print(a)
 
 
+
+class Car:
+    def __init__(self,brand,model):
+        self.brand=brand
+        self.model=model
+    
+    def start_engine(self):
+        print(f"{self.brand} engine started.")   
+
+    def stop_engine(self):
+        print(f"{self.model} engine stop")    
+
+my_car=Car("Tata","Nexon")
+my_car.start_engine()
+my_car.stop_engine()
 
 
