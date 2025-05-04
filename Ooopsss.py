@@ -64,19 +64,30 @@
 
 
 
-class Car:
-    def __init__(self,brand,model):
-        self.brand=brand
-        self.model=model
-    
-    def start_engine(self):
-        print(f"{self.brand} engine started.")   
+# class Car:
+#     def __init__(self,brand,model):
+#         self.brand=brand
+#         self.model=model
+      
+#     def start_engine(self):
+#         print(f"{self.brand} engine started.")   
 
-    def stop_engine(self):
-        print(f"{self.model} engine stop")    
+#     def stop_engine(self):
+#         print(f"{self.model} engine stop")    
 
-my_car=Car("Tata","Nexon")
-my_car.start_engine()
-my_car.stop_engine()
+# my_car=Car("Tata","Nexon")
+# my_car.start_engine()
+# my_car.stop_engine()
 
 
+class Student:
+   
+    def __init__(self,fullname):  
+        "def __init__ is function or constructor"
+        "self is first parameter"
+        "fullname is the second parameter"
+        self.name=fullname
+        "name is a variable of class"
+s1=Student("viplove sana")
+"viplove sana is the value which asign into the fullname"
+print(s1.name)
