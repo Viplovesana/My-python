@@ -82,12 +82,13 @@
 
 class Student:
    
-    def __init__(self,fullname):  
-        "def __init__ is function or constructor"
-        "self is first parameter"
-        "fullname is the second parameter"
+    def __init__(self,fullname,numbers):  
+  
         self.name=fullname
-        "name is a variable of class"
-s1=Student("viplove sana")
-"viplove sana is the value which asign into the fullname"
-print(s1.name)
+        self.marks=numbers
+    
+       
+s1=Student("viplove sana",95)
+print(s1.name,s1.marks)
+s2=Student("karan",85)
+print(s2.name,s2.marks)
