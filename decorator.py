@@ -7,7 +7,7 @@ def outer_function(n):
     def inner_func(x,y):
         x=x*2
         y=y+10
-        n(x,y)
+        main_function(x,y)
 
     return inner_func
 
