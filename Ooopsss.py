@@ -80,15 +80,34 @@
 # my_car.stop_engine()
 
 
-class Student:
+# class Student:
    
-    def __init__(self,fullname,numbers):  
+#     def __init__(self,fullname,numbers):  
   
-        self.name=fullname
-        self.marks=numbers
+#         self.name=fullname
+#         self.marks=numbers
     
        
-s1=Student("viplove sana",95)
-print(s1.name,s1.marks)
-s2=Student("karan",85)
-print(s2.name,s2.marks)
+# s1=Student("viplove sana",95)
+# print(s1.name,s1.marks)
+# s2=Student("karan",85)
+# print(s2.name,s2.marks)
+
+
+
+class Student:
+    school='SHSS'
+    def __init__(self,name,email,add):
+        self.name=name
+        self.email=email
+        self.add=add
+    def show_details(self):
+        principal="python"       #.......local variable
+        print(self.name,self.email,self.add)
+obj=Student('viplove','viploveasana90@gmail.com','bhopal')
+obj.show_details()
+print(obj.school)
+print(obj.add,obj.name,obj.email) 
+print(obj.principal)       
+                  
+        
