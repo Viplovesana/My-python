@@ -95,19 +95,57 @@
 
 
 
-class Student:
-    school='SHSS'
-    def __init__(self,name,email,add):
-        self.name=name
-        self.email=email
-        self.add=add
-    def show_details(self):
-        principal="python"       #.......local variable
-        print(self.name,self.email,self.add)
-obj=Student('viplove','viploveasana90@gmail.com','bhopal')
-obj.show_details()
-print(obj.school)
-print(obj.add,obj.name,obj.email) 
-print(obj.principal)       
+# class Student:
+#     school='SHSS'
+#     def __init__(self,name,email,add):
+#         self.name=name
+#         self.email=email
+#         self.add=add
+#     def show_details(self): 
+#         principal="python"       #.......local variable
+#         print(self.name,self.email,self.add)
+# obj=Student('viplove','viploveasana90@gmail.com','bhopal')
+# obj.show_details()
+# print(obj.school)
+# print(obj.add,obj.name,obj.email) 
+# print(obj.principal)       
                   
+
+# class Student():
+#     school='SHSS'   #static/class variable
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
+#         Student.city ='bhopal' #static/class variable
+
+#     def add_more(self):
+#         Student.greed ='10th' # static/class variable
+
+#     def show_detail(self):
+#         print(Student.school,Student.city,Student.city1,Student.greed)
+
+
+    
         
+# obj=Student('viplove',23) 
+# obj.add_more()
+# Student.city1='indore'
+# obj.show_detail()
+
+q= 50
+class Student:
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+
+        z=10   #local variable we can declare the local variable in the constructor
+        print(z)
+    def show(self):
+        p = 10
+        print(p) 
+        print(q)
+         
+
+
+obj= Student(10,20)
+obj.show()        
