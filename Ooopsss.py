@@ -132,20 +132,52 @@
 # Student.city1='indore'
 # obj.show_detail()
 
-q= 50
-class Student:
-    def __init__(self,x,y):
-        self.x=x
-        self.y=y
+# q= 50
+# class Student:
+#     def __init__(self,x,y):
+#         self.x=x
+#         self.y=y
 
-        z=10   #local variable we can declare the local variable in the constructor
-        print(z)
-    def show(self):
-        p = 10
-        print(p) 
-        print(q)
+#         z=10   #local variable we can declare the local variable in the constructor
+#         print(z)
+#     def show(self):
+#         p = 10
+#         print(p) 
+#         print(q)
          
 
 
-obj= Student(10,20)
-obj.show()        
+# obj= Student(10,20)
+# obj.show()    
+
+
+
+class Student:
+    school="SHSS"
+    gread ="10th"
+    def __init__(self,name,age):
+        self.n=name
+        self.a=age
+
+    @classmethod
+    def update_school(cls,sch):
+        cls.school=sch 
+    @classmethod
+    def update_gread(cls,grd):
+        cls.gread=grd
+    @staticmethod
+    def new(x,y):
+        print(x+y)
+    def show_details(self):
+        print(self.n)
+        print(self.a)
+        print(Student.school)
+        print(Student.gread)
+obj=Student('viplove',23)
+obj.show_details()
+
+obj.new(5,4) 
+Student.update_school("st.thomas")
+Student.update_gread("12th")
+obj.show_details()                
+    
