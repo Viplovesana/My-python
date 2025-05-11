@@ -29,18 +29,37 @@
     
 
 
+# class Student:
+#     def __init__(self,fullname,age):
+#         self.name=fullname
+#         self.age=age
+
+# s1 = Student('viplove sana',23)
+# print(s1.name)
+# print (s1.age) 
+# s2=Student('rohan malakar',22)
+# print(s2.name)
+# print(s2.age)  
+
+
+
 class Student:
+
+    collage_name="rgpv"   #class attributes
+    name="anonymous"
     def __init__(self,fullname,age):
-        self.name=fullname
-        self.age=age
+        self.name=fullname     #objecty attributes    //if the class name and object name is same   
+        self.age=age                                  #then the preference goes to the ob jects only    
 
 s1 = Student('viplove sana',23)
+# print(s1.name)
+# print (s1.age) 
+# s2=Student('rohan malakar',22)
+# print(s2.name)
+# print(s2.age) 
+print(s1.collage_name)
+print(Student.collage_name)
 print(s1.name)
-print (s1.age) 
-s2=Student('rohan malakar',22)
-print(s2.name)
-print(s2.age)       
-
 
 
 # class Student:
