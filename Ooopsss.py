@@ -29,6 +29,20 @@
     
 
 
+class Student:
+    def __init__(self,fullname,age):
+        self.name=fullname
+        self.age=age
+
+s1 = Student('viplove sana',23)
+print(s1.name)
+print (s1.age) 
+s2=Student('rohan malakar',22)
+print(s2.name)
+print(s2.age)       
+
+
+
 # class Student:
 #     name="viplove sana"
 #     subject="python"
@@ -152,32 +166,76 @@
 
 
 
-class Student:
-    school="SHSS"
-    gread ="10th"
-    def __init__(self,name,age):
-        self.n=name
-        self.a=age
+# class Student:
+#     school="SHSS"
+#     gread ="10th"
+#     def __init__(self,name,age):
+#         self.n=name
+#         self.a=age
 
-    @classmethod
-    def update_school(cls,sch):
-        cls.school=sch 
-    @classmethod
-    def update_gread(cls,grd):
-        cls.gread=grd
-    @staticmethod
-    def new(x,y):
-        print(x+y)
-    def show_details(self):
-        print(self.n)
-        print(self.a)
-        print(Student.school)
-        print(Student.gread)
-obj=Student('viplove',23)
-obj.show_details()
+#     @classmethod
+#     def update_school(cls,sch):
+#         cls.school=sch 
+#     @classmethod
+#     def update_gread(cls,grd):
+#         cls.gread=grd
+#     @staticmethod
+#     def new(x,y):
+#         print(x+y)
+#     def show_details(self):
+#         print(self.n)
+#         print(self.a)
+#         print(Student.school)
+#         print(Student.gread)
+# obj=Student('viplove',23)
+# obj.show_details()
+          
+# obj.new(5,4) 
+# Student.update_school("st.thomas")
+# Student.update_gread("12th")
+# obj.show_details()                
+    
 
-obj.new(5,4) 
-Student.update_school("st.thomas")
-Student.update_gread("12th")
-obj.show_details()                
+
+
+# class Student:
+#     def __init__(self,name,age):
+#         self.n=name
+#         self.a=age
+
+#     def show_data(self):
+#         print(self.name)
+#         print(self.age)
+# obj=Student("viplove",23)   
+         
+
+
+
+# class Student:
+#    "this is demo data"
+#    x=10
+#    y=20
+#    def new (self):
+#       print("helllo")
+#       print(id(self))
+
+
+# print(Student.__module__)
+# print(Student.__doc__)
+# print(Student.__dict__)
+# print(id(Student))
+
+# obj=Student()
+# print(id(obj))
+# obj.new()        
+
+
+
+# def outer(main):
+#     def inner():
+#         print("from inner")
+#     return inner
+# x = outer(10)
+# print(id(x))
+# print(id(outer))
     
