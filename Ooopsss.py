@@ -300,20 +300,66 @@
 
 
     
+# class P:
+#     def __init__(self,bank,house,x):
+#         self.bank=bank
+#         self.house=house
+#         self.x=x
+# class C(P):
+   
+
+#     def show(self):
+#         print(self.bank,self.house,self.x)
+       
+
+# obj=C('HDFC','KOLAR',100)
+# obj.show()
+
+
+# class P:
+   
+#     def __init__(self,bank,house,x):
+#         self.bank=bank
+#         self.house=house
+#         self.x=x
+# class C(P):
+#     def add(self):
+#         print("from add class") 
+   
+
+#     def show(self):
+#         print(self.bank,self.house,self.x)
+#     def add(self):
+#         print("from add class")    
+       
+
+# obj=C('HDFC','KOLAR',100)
+# obj.show()
+# obj.add()
+
+
+
 class P:
+    def add(self):
+        print("from add class") 
+   
     def __init__(self,bank,house,x):
         self.bank=bank
         self.house=house
         self.x=x
 class C(P):
-   
-
+    def add(self):
+        super().add()
+        print("from child class") 
     def show(self):
         print(self.bank,self.house,self.x)
+        
        
 
 obj=C('HDFC','KOLAR',100)
 obj.show()
+obj.add()
+
 
        
               
