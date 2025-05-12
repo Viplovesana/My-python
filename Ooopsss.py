@@ -43,23 +43,23 @@
 
 
 
-class Student:
+# class Student:
 
-    collage_name="rgpv"   #class attributes
-    name="anonymous"
-    def __init__(self,fullname,age):
-        self.name=fullname     #objecty attributes    //if the class name and object name is same   
-        self.age=age                                  #then the preference goes to the ob jects only    
+#     collage_name="rgpv"   #class attributes
+#     name="anonymous"
+#     def __init__(self,fullname,age):
+#         self.name=fullname     #objecty attributes    //if the class name and object name is same   
+#         self.age=age                                  #then the preference goes to the ob jects only    
 
-s1 = Student('viplove sana',23)
+# s1 = Student('viplove sana',23)
+# # print(s1.name)
+# # print (s1.age) 
+# # s2=Student('rohan malakar',22)
+# # print(s2.name)
+# # print(s2.age) 
+# print(s1.collage_name)
+# print(Student.collage_name)
 # print(s1.name)
-# print (s1.age) 
-# s2=Student('rohan malakar',22)
-# print(s2.name)
-# print(s2.age) 
-print(s1.collage_name)
-print(Student.collage_name)
-print(s1.name)
 
 
 # class Student:
@@ -257,4 +257,64 @@ print(s1.name)
 # x = outer(10)
 # print(id(x))
 # print(id(outer))
+
+
+
+
+"......................................INHERITENCE..........................................................."
     
+# class P:
+#     def __init__(self,bank,house):
+#         self.bank=bank
+#         self.house=house
+# class C(P):
+#     def __init__(self, bank1, house1):
+#         self.bank1=bank1
+#         self.house1=house1
+
+#     def show_property(self):
+#         print(self.bank,self.house)
+#         print(self.bank1,self.house1)
+
+# obj=P('HDFC','MP')
+# obj1=C('IDFC','kolar')
+# obj1.show_property()      
+
+
+
+    
+# class P:
+#     def __init__(self,bank,house):
+#         self.bank=bank
+#         self.house=house
+# class C(P):
+   
+
+#     def show_property(self):
+#         print(self.bank,self.house)
+#         print(self.bank1,self.house1)
+
+# obj=C
+# obj=C()
+
+
+
+    
+class P:
+    def __init__(self,bank,house,x):
+        self.bank=bank
+        self.house=house
+        self.x=x
+class C(P):
+   
+
+    def show(self):
+        print(self.bank,self.house,self.x)
+       
+
+obj=C('HDFC','KOLAR',100)
+obj.show()
+
+       
+              
+            
