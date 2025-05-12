@@ -339,28 +339,68 @@
 
 
 
-class P:
-    def add(self):
-        print("from add class") 
+# class P:
+#     def add(self):
+#         print("from add class")          
    
-    def __init__(self,bank,house,x):
-        self.bank=bank
-        self.house=house
-        self.x=x
-class C(P):
-    def add(self):
-        super().add()
-        print("from child class") 
-    def show(self):
-        print(self.bank,self.house,self.x)
+#     def __init__(self,bank,house,x):
+#         self.bank=bank
+#         self.house=house
+#         self.x=x
+# class C(P):
+#     def add(self):
+#         super().add()
+#         print("from child class") 
+#     def show(self):
+#         print(self.bank,self.house,self.x)
         
        
 
-obj=C('HDFC','KOLAR',100)
-obj.show()
-obj.add()
+# obj=C('HDFC','KOLAR',100)
+# obj.show()
+# obj.add()
 
 
-       
-              
+"..................Single _level_inheritance................................."
+
+# class A:
+#     def first(self):
+#         print("from parent class")
+# class B(A):
+#     def second(self):
+#         print("from child class")  
+# obj=B()
+# obj.first()
+# obj.second()   
+
+
+
+".....................Multi_level_inheritance.................................."
+# class A:
+#     def first(self):
+#         print("from grandparent class")
+# class B(A):
+#     def second(self):
+#         print("from parent class")
+# class C(B):
+#     pass          
+# obj=B()
+# obj.first()
+# obj.second() 
+
+".....................Multiple_inheritance.................................."
+class A:
+    def first(self):
+        print("from Father class")
+class B:
+    def second(self):
+        print("from Mother class")
+class C(A,B):
+    def third(self):
+        print("both father and father classes")
+
+obj=C()
+obj.first()
+obj.second()
+obj.third()               
             
