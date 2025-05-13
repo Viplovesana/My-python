@@ -431,27 +431,96 @@
 
 "..........................Hybrid inheritence............................."
 
-class Grandparent:
-    def home(self):
-        print("from grandparent class")
-    def bank(self):
-        print("from grandparent bank")  
+# class Grandparent:
+#     def home(self):
+#         print("from grandparent class")
+#     def bank(self):
+#         print("from grandparent bank")  
 
 
-class Parent1(Grandparent):
-    def car(self):
-        print("car from parent1 class")
-class Parent2(Grandparent):
-    def car2(self):
-        print("car2 from parent2 class")
+# class Parent1(Grandparent):
+#     def car(self):
+#         print("car from parent1 class")
+# class Parent2(Grandparent):
+#     def car2(self):
+#         print("car2 from parent2 class")
 
-class Child(Parent1,Parent2):
-    pass
+# class Child(Parent1,Parent2):
+#     pass
 
 
-obj=Child()
-obj.car()
-obj.car2()
-obj.home()
-obj.bank()
+# obj=Child()
+# obj.car()
+# obj.car2()
+# obj.home()
+# obj.bank()
+
+# "............................(MRO)method resolution method.........................."
+
+# class Grandparent:
+#     def home(self):
+#         print("from grandparent class")
+#     def bank(self):
+#         print("from grandparent bank")  
+
+
+# class Parent1(Grandparent):
+#     def car(self):
+#         print("car from parent1 class")
+# class Parent2(Grandparent):
+#     def car(self):
+#         print("car2 from parent2 class")
+
+# class Child(Parent1,Parent2):
+#     pass
+
+
+# obj=Child()
+# obj.car()
+# obj.home()
+# obj.bank()
+
+
+"******************************ABSTRACTIONS**************************************************"
+
+# from abc import ABC,abstractmethod
+
+# class A(ABC):
+#     def first(self):
+#         print("from first method")
+        
+         
+#     @abstractmethod
+#     def second(self):
+#         pass
+#     @abstractmethod
+#     def third(self):
+#         pass
+
+
+from abc import ABC,abstractmethod
+class Senior(ABC):
+    def add(self,x,y):
+        return x+y
+    def sub(self,x,y):
+        return x-y
+    @abstractmethod
+    def div(self):
+        pass
+class junior(Senior):
+    def multi(self,x,y):
+        return x*y
+    def div(self,x,y):
+        return x/y
+    
+obj=junior()
+v=obj.multi(10,20)
+c=obj.div(30,29)
+print(v)
+print(c)
+ 
+
+
+
+
 
