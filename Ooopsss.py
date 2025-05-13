@@ -389,18 +389,69 @@
 # obj.second() 
 
 ".....................Multiple_inheritance.................................."
-class A:
-    def first(self):
-        print("from Father class")
-class B:
-    def second(self):
-        print("from Mother class")
-class C(A,B):
-    def third(self):
-        print("both father and father classes")
+# class A:
+#     def first(self):
+#         print("from Father class")
+# class B:
+#     def second(self):
+#         print("from Mother class")
+# class C(A,B):
+#     def third(self):
+#         print("both father and father classes")
 
-obj=C()
-obj.first()
-obj.second()
-obj.third()               
+# obj=C()
+# obj.first()
+# obj.second()
+# obj.third()               
             
+
+"..........................Hierarchical inheritence.........................."
+
+
+# class Parent:
+#     def home(self):
+#         print("from parent class")
+#     def bank(self):
+#         print("from parent bank")
+
+# class Child1(Parent):
+#     pass
+# class Child2(Parent):
+#     pass
+
+# obj1=Child1()
+# obj2=Child2()
+# obj1.home()
+# obj2.home()
+# obj1.bank()
+# obj2.bank()
+
+
+
+
+"..........................Hybrid inheritence............................."
+
+class Grandparent:
+    def home(self):
+        print("from grandparent class")
+    def bank(self):
+        print("from grandparent bank")  
+
+
+class Parent1(Grandparent):
+    def car(self):
+        print("car from parent1 class")
+class Parent2(Grandparent):
+    def car2(self):
+        print("car2 from parent2 class")
+
+class Child(Parent1,Parent2):
+    pass
+
+
+obj=Child()
+obj.car()
+obj.car2()
+obj.home()
+obj.bank()
+
