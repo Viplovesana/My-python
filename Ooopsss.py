@@ -498,26 +498,47 @@
 #         pass
 
 
-from abc import ABC,abstractmethod
-class Senior(ABC):
-    def add(self,x,y):
-        return x+y
-    def sub(self,x,y):
-        return x-y
-    @abstractmethod
-    def div(self):
-        pass
-class junior(Senior):
-    def multi(self,x,y):
-        return x*y
-    def div(self,x,y):
-        return x/y
+# from abc import ABC,abstractmethod
+# class Senior(ABC):
+#     def add(self,x,y):
+#         return x+y
+#     def sub(self,x,y):
+#         return x-y
+#     @abstractmethod
+#     def div(self):
+#         pass
+# class junior(Senior):
+#     def multi(self,x,y):
+#         return x*y
+#     def div(self,x,y):
+#         return x/y
     
-obj=junior()
-v=obj.multi(10,20)
-c=obj.div(30,29)
-print(v)
-print(c)
+# obj=junior()
+# v=obj.multi(10,20)
+# c=obj.div(30,29)
+# print(v)
+# print(c)     
+
+
+"*************************POLYMORPHISM*************************"
+
+
+class A:
+    def add(self,x,y):
+        return(x+y)
+    def add(self,x,y,z):
+        return (x+y+z)
+    def add(self,*n):
+        sum=0
+        for i in n:\
+        sum=sum+1
+    print(sum)
+
+
+obj=A()
+obj.add()
+obj.add(1)
+obj.add(1,2,3,4,5)            
  
 
 
