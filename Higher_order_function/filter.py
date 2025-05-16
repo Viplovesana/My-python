@@ -53,14 +53,28 @@
 # print(string)
 
 "Given a list of words, filter out the words with less than 4 characters."
-l=['bob','vip','vikas','sumit','lee']
-def character(n):
-    if len(n)<=4:
-        return n
-x=filter(character,l)
-print(x)
-print(list(x))    
+# l=['bob','vip','vikas','sumit','lee']
+# def character(n):
+#     if len(n)<=4:
+#         return n
+# x=filter(character,l)
+# print(x)
+# print(list(x)) 
 
-
+"rectification of the data in a particulat data"
+# l=[3,5,7,2,8]
+# def even_no(n):
+#     if n%2==0:
+#         return n
+# x=filter(even_no,l)
+# print(x)
+# print(list(x))
     
 
+l=[3,5,7,2,8]
+def odd_no(n):
+    if n%2!=0:
+        return n
+x=filter(odd_no,l)
+print(x)
+print(list(x))
