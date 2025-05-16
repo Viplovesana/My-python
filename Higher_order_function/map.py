@@ -30,12 +30,33 @@
 # print(list(x))
 
 
-"multiplication of 4 int list"
+# "multiplication of 4 int list"
 
-l=[1,2,3,4,5,6]
-def multi(n):
-    return n*4
-x=map(multi,l)
+# l=[1,2,3,4,5,6]
+# def multi(n):
+#     return n*4
+# x=map(multi,l)
+# print(x)
+# print(tuple(x))
+
+
+
+
+"addition of 8 in the list"
+
+# l=[4,6,3,7,96,89]
+
+# def addition(n):
+#     return n+8
+# x=map(addition,l)
+# print(x)
+# print(list(x))
+# print(tuple(x))
+
+"substraction of numbers from the list"
+l=[66,33,65,35,75,85,22]
+def sub(n):
+    return n-20
+x=map(sub,l)
 print(x)
-print(tuple(x))
-
+print(list(x))

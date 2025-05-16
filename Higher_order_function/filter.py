@@ -21,21 +21,21 @@
 # print(tuple(x))    
 
 
-l=[1,2,3,4,5,6,7]
-def even(n):
-    if(n%2==0):
-        return n
-x = filter(even,l)
-print(x)
-print(list(x))
+# l=[1,2,3,4,5,6,7]
+# def even(n):
+#     if(n%2==0):
+#         return n
+# x = filter(even,l)
+# print(x)
+# print(list(x))
 
 
-l=[1,2,3,4,5,6,7]
-def even(n):
-    if(n%2!=0):
-        return n
-x = filter(even,l)
-print(x)
-print(list(x))
+# l=[1,2,3,4,5,6,7]
+# def even(n):
+#     if(n%2!=0):
+#         return n
+# x = filter(even,l)
+# print(x)
+# print(list(x))
     
 
