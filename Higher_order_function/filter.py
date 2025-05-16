@@ -53,13 +53,14 @@
 # print(string)
 
 "Given a list of words, filter out the words with less than 4 characters."
-name=['viplove',"bob","lee","jhon","nemor"]
-def characters(n):
+l=['bob','vip','vikas','sumit','lee']
+def character(n):
     if len(n)<=4:
         return n
-x=filter(characters,name)
+x=filter(character,l)
 print(x)
 print(list(x))    
+
 
     
 
