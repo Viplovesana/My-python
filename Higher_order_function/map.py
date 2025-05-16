@@ -54,9 +54,9 @@
 # print(tuple(x))
 
 "substraction of numbers from the list"
-l=[66,33,65,35,75,85,22]
-def sub(n):
-    return n-20
-x=map(sub,l)
-print(x)
-print(list(x))
+# l=[66,33,65,35,75,85,22]
+# def sub(n):
+#     return n-20
+# x=map(sub,l)
+# print(x)
+# print(list(x))

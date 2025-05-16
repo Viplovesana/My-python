@@ -37,5 +37,20 @@
 # x = filter(even,l)
 # print(x)
 # print(list(x))
+
+"Use filter() to extract even numbers from a list of integers."
+# l=[12,3,4,5,6,7,8,9]
+# def even_no(n):
+#     if n%2==0:
+#         return n
+# x = filter(even_no,l)
+# print(x)
+# print(list(x))
+
+"Use filter() to remove all empty strings from a list."
+name=['','viplove','dharmendra','','prem','']
+string=list(filter(None,name))
+print(string)
+
     
 
