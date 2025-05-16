@@ -8,15 +8,34 @@
 # def evenno(n):
 #     if n%2==0:
 #         return n
-# x = filter(evenno,l)
+# # x = filter(evenno,l)
+# # print(tuple(x))    
+
+
+# l = [4,7,8,4,6,9,56,3,45,5,3,7]
+
+# def oddno (n):
+#     if n%2!=0:
+#         return n
+# x = filter(oddno,l)
 # print(tuple(x))    
 
 
-l = [4,7,8,4,6,9,56,3,45,5,3,7]
-
-def oddno (n):
-    if n%2!=0:
+l=[1,2,3,4,5,6,7]
+def even(n):
+    if(n%2==0):
         return n
-x = filter(oddno,l)
-print(tuple(x))    
+x = filter(even,l)
+print(x)
+print(list(x))
+
+
+l=[1,2,3,4,5,6,7]
+def even(n):
+    if(n%2!=0):
+        return n
+x = filter(even,l)
+print(x)
+print(list(x))
+    
 

@@ -34,7 +34,7 @@
 
 l=[1,2,3,4,5,6]
 def multi(n):
-    return n**4
+    return n*4
 x=map(multi,l)
 print(x)
 print(tuple(x))
