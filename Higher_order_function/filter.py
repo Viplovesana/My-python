@@ -48,9 +48,18 @@
 # print(list(x))
 
 "Use filter() to remove all empty strings from a list."
-name=['','viplove','dharmendra','','prem','']
-string=list(filter(None,name))
-print(string)
+# name=['','viplove','dharmendra','','prem','']
+# string=list(filter(None,name))
+# print(string)
+
+"Given a list of words, filter out the words with less than 4 characters."
+name=['viplove',"bob","lee","jhon","nemor"]
+def characters(n):
+    if len(n)<=4:
+        return n
+x=filter(characters,name)
+print(x)
+print(list(x))    
 
     
 
