@@ -1,5 +1,6 @@
 
-import functools
+
+# import functools
 
 # l = [10,20,30,50,15,25] 
 
@@ -9,14 +10,22 @@ import functools
 #     else:
 #         return y
 # x = functools.reduce(max_fan,l)
-# print(x)    
+# print(x) 
 
+import functools
 
+l=[10,20,30,40,50,60]
 
-l =[1,2,3,4,5,6]
-
-def sum_all(x,y):
-    return x+y
-x = functools.reduce(sum_all,l)
+def max_no(x,y):
+    if x>y:
+        return x
+    else:
+        return y
+x=functools.reduce(max_no,l) 
 print(x)
+  
+
+
+
+
 

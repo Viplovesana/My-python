@@ -71,10 +71,10 @@
 # print(list(x))
     
 
-l=[3,5,7,2,8]
-def odd_no(n):
-    if n%2!=0:
-        return n
-x=filter(odd_no,l)
-print(x)
-print(list(x))
+# l=[3,5,7,2,8]
+# def odd_no(n):
+#     if n%2!=0:
+#         return n
+# x=filter(odd_no,l)
+# print(x)
+# print(list(x))
