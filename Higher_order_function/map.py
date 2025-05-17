@@ -47,7 +47,7 @@
 # l=[4,6,3,7,96,89]
 
 # def addition(n):
-#     return n+8
+#     return n+8   
 # x=map(addition,l)
 # print(x)
 # print(list(x))
@@ -60,3 +60,11 @@
 # x=map(sub,l)
 # print(x)
 # print(list(x))
+
+
+"multiply the the no into the list"
+l=[24,678,5,3,75]
+def multi(n):
+    return n*4
+x=map(multi,l)
+print(list(x))

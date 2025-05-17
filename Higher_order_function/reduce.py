@@ -24,19 +24,19 @@
 # x=functools.reduce(max_no,l) 
 # print(x)
 
-"print smallest element from the element"
-import functools
+# "print smallest element from the element"
+# import functools
 
-l = [45,86,24,87,343,897,45,34,6]
+# l = [45,86,24,87,343,897,45,34,6]
 
-def small_func(x,y):
-    if x>y:
-        return x
-    else:
-        return y
+# def small_func(x,y):
+#     if x>y:
+#         return x
+#     else:
+#         return y
 
-x=functools.reduce(small_func,l) 
-print(x)  
+# x=functools.reduce(small_func,l) 
+# print(x)  
 
 
   
