@@ -40,15 +40,15 @@
 
 
 "return a large value from the list"
-import functools
-l=[23,5,73,46]
-def large(x,y):
-    if x<y:
-        return x
-    else:
-        return y
-a = functools.reduce(large,l)
-print(a)  
+# import functools
+# l=[23,5,73,46]
+# def large(x,y):
+#     if x<y:
+#         return x
+#     else:
+#         return y
+# a = functools.reduce(large,l)
+# print(a)  
 
 
   
