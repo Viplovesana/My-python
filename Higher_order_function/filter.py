@@ -81,10 +81,18 @@
 
 
 "filter the odd number from the list"
-l=[2,45,7,3,78,96,4,3,66]
-def odd_fun(n):
-    if n%2!=0:
-        return n
-x=filter(odd_fun,l)
-print(tuple(x))    
+# l=[2,45,7,3,78,96,4,3,66]
+# def odd_fun(n):
+#     if n%2!=0:
+#         return n
+# x=filter(odd_fun,l)
+# print(tuple(x))    
+
+"Create a lambda function that returns True if a string starts with 'A'. Use it with filter()."
+frts=["apple","grapes","banana","avocada","orange"]
+def fruits(word):
+    return word.startswith("a")
+    
+x=filter(fruits,frts)
+print(list(x))    
     

@@ -53,4 +53,4 @@
 import functools
 numbers=[2,3,5,8,3,8,0,4,6,2,7,5,]
 greater=functools.reduce(lambda x,y: x if x>y else y ,numbers )
-print(greater)
+print(greater)  
