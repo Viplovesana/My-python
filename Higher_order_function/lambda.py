@@ -57,6 +57,6 @@
 
 
 "Create a lambda function that returns True if a string starts with 'A'. Use it with filter()."
-words=["Apple","grapes","pineple","orange","Avakado"]
-starts_with=filter(lambda word :word.startswith("A"),words)
-print(list(starts_with))
+# words=["Apple","grapes","pineple","orange","Avakado"]
+# starts_with=filter(lambda word :word.startswith("A"),words)
+# print(list(starts_with))
