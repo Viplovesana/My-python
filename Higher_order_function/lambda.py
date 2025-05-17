@@ -50,7 +50,13 @@
 # print(list(even))
 
 "reduce method using lambda"
-import functools
-numbers=[2,3,5,8,3,8,0,4,6,2,7,5,]
-greater=functools.reduce(lambda x,y: x if x>y else y ,numbers )
-print(greater)  
+# import functools
+# numbers=[2,3,5,8,3,8,0,4,6,2,7,5,]
+# greater=functools.reduce(lambda x,y: x if x>y else y ,numbers )
+# print(greater)  
+
+
+"Create a lambda function that returns True if a string starts with 'A'. Use it with filter()."
+words=["Apple","grapes","pineple","orange","Avakado"]
+starts_with=filter(lambda word :word.startswith("A"),words)
+print(list(starts_with))

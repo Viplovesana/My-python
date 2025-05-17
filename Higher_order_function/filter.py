@@ -88,7 +88,7 @@
 # x=filter(odd_fun,l)
 # print(tuple(x))    
 
-"Create a lambda function that returns True if a string starts with 'A'. Use it with filter()."
+"returns True if a string starts with 'A'. Use it with filter()."
 frts=["apple","grapes","banana","avocada","orange"]
 def fruits(word):
     return word.startswith("a")
