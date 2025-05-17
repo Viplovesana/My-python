@@ -40,6 +40,11 @@
 "uasing lambda() fun in map,filter,and reduce"
 
 "map method using lambda"
-num=[11,22,33,44,55]
-square=map(lambda n: n**2,num)
-print (list(square))
+# num=[11,22,33,44,55]
+# square=map(lambda n: n**2,num)
+# print (list(square))
+
+"filter method using lambda"
+num=[11,22,33,44,55,66,77,88]
+even=filter(lambda n: n%2==0, num)
+print(list(even))
