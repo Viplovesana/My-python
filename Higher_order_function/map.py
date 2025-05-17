@@ -62,9 +62,9 @@
 # print(list(x))
 
 
-"multiply the the no into the list"
-l=[24,678,5,3,75]
-def multi(n):
-    return n*4
-x=map(multi,l)
-print(list(x))
+# "multiply the the no into the list"
+# l=[24,678,5,3,75]
+# def multi(n):
+#     return n*4
+# x=map(multi,l)
+# print(list(x))
