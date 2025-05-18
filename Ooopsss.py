@@ -544,15 +544,27 @@
 
 
 "normal Class and Object"
-class Car:
-    color="mehrun"
-    brand="toyata"
-car1=Car()
-print(car1.brand,car1.color)
+# class Car:
+#     color="mehrun"
+#     brand="toyata"
+# car1=Car()
+# print(car1.brand,car1.color)
+
+class Student:
+    name="viplove sana"
+    print="student of class"
+    std="10th"
+
+obj=Student()
+print(obj.name)
+print(obj.print)
+print(obj.std)
+print(Student.name)    
+
     
  
 
 
 
 
-
+ 
