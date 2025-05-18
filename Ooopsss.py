@@ -550,18 +550,32 @@
 # car1=Car()
 # print(car1.brand,car1.color)
 
+# class Student:
+#     name="viplove sana"
+#     print="student of class"
+#     std="10th"
+
+# obj=Student()
+# print(obj.name)
+# print(obj.print)
+# print(obj.std)
+# print(Student.name)    
+
 class Student:
-    name="viplove sana"
-    print="student of class"
-    std="10th"
+    name ="viplove sana"
+    def __init__(self,name):
+        self.fullname=name
+        print("hello how are you")
+S1=Student("viplove")
+print(S1.name)
+print(S1.fullname)
 
-obj=Student()
-print(obj.name)
-print(obj.print)
-print(obj.std)
-print(Student.name)    
+S2=Student("jhon")
+print(S2.name)
+print(S2.fullname)
 
-    
+
+        
  
 
 
