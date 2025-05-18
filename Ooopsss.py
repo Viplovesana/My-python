@@ -564,22 +564,31 @@
 # print(obj.std)
 # print(Student.name)    
 
+
+"Using constructor inside the class"
+
 class Student:
     ins_name="Cybrom tech"
+    name="anonymus"  # Class attributes are not heighly presidiance 
     name ="viplove sana"
     def __init__(self,name,marks):
         self.fullname=name
         self.marks=marks
-        print("hello how are you")         
+        print("hello how are you") 
+
 S1=Student("viplove",78)
 print(S1.name)
 print(S1.fullname,S1.marks)
-print(S1.ins_name)
+print(Student.ins_name)
 
 S2=Student("jhon",79)
 print(S2.name)
 print(S2.fullname,S2.marks) 
-print(S2.ins_name)    
+print(Student.ins_name) 
+
+
+
+ 
 
 
         
