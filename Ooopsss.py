@@ -9,7 +9,7 @@
 # z= obj.add(10,20)
 # print(z)   
 
-# print(obj.x)
+# print(Calculator.x)
 
 
 # class Home:
@@ -21,7 +21,7 @@
 #         print(id(self))
 
 # obj1 = Home('Name',123,'Bhopal') 
-# obj1.__init__('viplove',345,'Bhopal')
+# # obj1.__init__('viplove',345,'Bhopal')
 # print(id(obj1))
 # print(obj1.n)  
 # print(obj1.c)  
@@ -44,7 +44,7 @@
 
 
 # class Student:
-
+# # 
 #     collage_name="rgpv"   #class attributes
 #     name="anonymous"
 #     def __init__(self,fullname,age):
@@ -523,22 +523,33 @@
 "*************************POLYMORPHISM*************************"
 
 
-class A:
-    def add(self,x,y):
-        return(x+y)
-    def add(self,x,y,z):
-        return (x+y+z)
-    def add(self,*n):
-        sum=0
-        for i in n:\
-        sum=sum+1
-    print(sum)
+# class A:
+#     def add(self,x,y):
+#         return(x+y)
+#     def add(self,x,y,z):
+#         return (x+y+z)
+#     def add(self,*n):
+#         sum=0
+#         for i in n:\
+#         sum=sum+1
+#     print(sum)
 
 
-obj=A()
-obj.add()
-obj.add(1)
-obj.add(1,2,3,4,5)            
+# obj=A()
+# obj.add()
+# obj.add(1)
+# obj.add(1,2,3,4,5) 
+
+
+
+
+"normal Class and Object"
+class Car:
+    color="mehrun"
+    brand="toyata"
+car1=Car()
+print(car1.brand,car1.color)
+    
  
 
 
