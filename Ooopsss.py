@@ -567,25 +567,40 @@
 
 "Using constructor inside the class"
 
+# class Student:
+#     ins_name="Cybrom tech"
+#     name="anonymus"  # Class attributes are not heighly presidiance 
+#     name ="viplove sana"
+#     def __init__(self,name,marks):
+#         self.fullname=name
+#         self.marks=marks
+#         print("hello how are you") 
+
+# S1=Student("viplove",78)
+# print(S1.name)
+# print(S1.fullname,S1.marks)
+# print(Student.ins_name)
+
+# S2=Student("jhon",79)
+# print(S2.name)
+# print(S2.fullname,S2.marks) 
+# print(Student.ins_name) 
+
+
+
+"using method inside the contructor"
+
 class Student:
-    ins_name="Cybrom tech"
-    name="anonymus"  # Class attributes are not heighly presidiance 
-    name ="viplove sana"
     def __init__(self,name,marks):
-        self.fullname=name
-        self.marks=marks
-        print("hello how are you") 
+        self.n=name
+        self.m=marks
 
-S1=Student("viplove",78)
-print(S1.name)
-print(S1.fullname,S1.marks)
-print(Student.ins_name)
-
-S2=Student("jhon",79)
-print(S2.name)
-print(S2.fullname,S2.marks) 
-print(Student.ins_name) 
-
+    def welcome(self):
+        print("welcome Mr",self.n)
+obj1=Student("Viplove sana",98) 
+print(obj1.n,obj1.m)
+obj1.welcome()           
+        
 
 
  
