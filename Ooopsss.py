@@ -597,9 +597,14 @@ class Student:
 
     def welcome(self):
         print("welcome Mr",self.n)
+
+    def get_marks(self):
+        return self.m    
 obj1=Student("Viplove sana",98) 
 print(obj1.n,obj1.m)
-obj1.welcome()           
+obj1.welcome() 
+obj2=Student("rohan",67)
+print(obj2.get_marks())          
         
 
 
